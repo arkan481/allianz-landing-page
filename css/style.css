@@ -121,6 +121,7 @@ h4 {
 
 @media (max-width: 600px) {
   .terminal-bg {
+    width: 93%;
     background-size: cover 100% !important;
     padding-top: 120px;
     justify-content: flex-start;
