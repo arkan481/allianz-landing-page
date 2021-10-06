@@ -46,6 +46,7 @@ body {
 .terminal-bg {
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-bottom: 50px;
   width: 75%;
   padding: 20px;
   flex: 5;
@@ -72,20 +73,28 @@ h4 {
     font-weight: normal;
 }
 
-h1 {
-  font-size: 7.4vw;
+.heading {
+  display: block;
 }
 
-h2 {
-  font-size: 4.0vw;
+.heading-primary {
+  font-size: 70px;
 }
 
-h4 {
-  font-size: 4.0vmin;
+.heading-secondary {
+  font-size: 50px;
+}
+
+.heading-sub {
+  font-size: 30px;
 }
 
 .light-orange-text {
   color: #FFEF9F;
+}
+
+.orange-text {
+  color: #FFD000;
 }
 
 .green-text {
@@ -95,14 +104,14 @@ h4 {
 .sect-1-left-bot {
   position: absolute;
   bottom: 0;
-  width: 500px;
+  width: 400px;
 }
 
 .sect-1-right-bot {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 500px;
+  width: 400px;
 }
 
 .sect-1-scroll-img {
@@ -152,6 +161,18 @@ h4 {
   .app-bar > img {
     width: 65px;
     height: auto;
+  }
+
+  .heading-primary {
+    font-size: 50px;
+  }
+  
+  .heading-secondary {
+    font-size: 30px;
+  }
+
+  .heading-sub {
+    font-size: 20px;
   }
 }
 
