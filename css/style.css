@@ -316,6 +316,28 @@ h4 {
   text-align: justify;
 }
 
+.sect-7-content {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.sect-7-percentage-img {
+  width: 400px;
+  max-width: 30%;
+  transform: translateX(100px);
+}
+
+.sect-7-card-jo-img {
+  width: 800px;
+  max-width: 80%;
+}
+
+.sect-7-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 480px) {
   .app-bar > img {
