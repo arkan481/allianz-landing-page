@@ -356,6 +356,32 @@ h4 {
   font-style: italic;
 }
 
+.sect-7-5-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.online-store-img-desktop {
+  height: 500px;
+  align-self: center;
+  max-width: 80%;
+}
+
+.online-store-img-mobile {
+  width: 400px;
+  max-width: 70%;
+  display: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.card-rahmadanty-mobile {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 480px) {
   .app-bar > img {
@@ -483,6 +509,23 @@ h4 {
 
   .order-sm-2 {
     order: 2;
+  }
+
+  .online-store-img-desktop {
+    display: none;
+  }
+
+  .online-store-img-mobile {
+    display: initial;
+    align-self: center;
+  }
+
+  .card-rahmadanty-mobile {
+    display: initial;
+  }
+
+  .card-rahmadanty-desktop {
+    display: none;
   }
 }
 
