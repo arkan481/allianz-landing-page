@@ -318,7 +318,7 @@ h4 {
 
 .sect-7-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-self: center;
 }
 
@@ -333,7 +333,7 @@ h4 {
   transform: translateX(100px);
 }
 
-.sect-7-card-jo-img {
+.sect-7-card-img {
   width: 800px;
   max-width: 100%;
 }
@@ -345,6 +345,15 @@ h4 {
 
 .pink-text {
   color: #CF5B87;
+}
+
+.sect-7-pie-img {
+  height: 200px;
+  max-width: 50%;
+}
+
+.text-italic {
+  font-style: italic;
 }
 
 /* MEDIA QUERIES */
@@ -466,6 +475,14 @@ h4 {
 
   .sect-7-percentage-img {
     transform: initial;
+  }
+
+  .order-sm-1 {
+    order: 1;
+  }
+
+  .order-sm-2 {
+    order: 2;
   }
 }
 
