@@ -284,6 +284,38 @@ h4 {
   max-width: 70%;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.sect-6-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sect-6-text {
+  width: 700px;
+  max-width: 100%;
+  font-weight: lighter;
+  margin-left: 40px;
+}
+
+.sect-6-card {
+  max-width: 100%;
+  width: 800px;
+  height: auto;
+}
+
+.sect-6-side-img {
+  max-width: 80%;
+  align-self: flex-end;
+  height: 600px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 480px) {
   .app-bar > img {
@@ -370,6 +402,22 @@ h4 {
     font-size: 16px;
     width: 100%;
     padding: 10px;
+  }
+
+  .sect-6-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .sect-6-side-img {
+    order: 1;
+    height: 400px;
+    align-self: center;
+  }
+
+  .sect-6-text {
+    margin-left: unset;
+    text-align: center;
   }
 }
 
