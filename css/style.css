@@ -322,15 +322,20 @@ h4 {
   align-self: center;
 }
 
+.sect-7-img {
+  width: 400px;
+  max-width: 80%;
+}
+
 .sect-7-percentage-img {
   width: 400px;
-  max-width: 30%;
+  max-width: 70%;
   transform: translateX(100px);
 }
 
 .sect-7-card-jo-img {
   width: 800px;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .sect-7-wrapper {
@@ -429,6 +434,7 @@ h4 {
   .sect-6-content {
     flex-direction: column-reverse;
     justify-content: center;
+    align-items: center;
   }
 
   .sect-6-side-img {
@@ -438,8 +444,24 @@ h4 {
   }
 
   .sect-6-text {
-    margin-left: unset;
+    width: 100%;
+    align-self: center;
+    margin-left: initial;
     text-align: center;
+  }
+
+  .sect-7-content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .sect-7-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sect-7-percentage-img {
+    transform: initial;
   }
 }
 
