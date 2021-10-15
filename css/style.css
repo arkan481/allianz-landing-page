@@ -145,12 +145,38 @@ h4 {
   transform: scaleX(-1);
 }
 
+.cloud {
+  position: relative;
+  height: 280px;
+  animation: cloud 6s linear infinite;
+}
+
+.cloud__coin {
+  width: 17%;
+  position: absolute;
+  top: 10%;
+}
+
+.cloud__coin--left {
+  left: 20%;
+  animation: rain-drop-left infinite 2s ease;
+  z-index: 10;
+}
+
+.cloud__coin--right {
+  right: 20%;
+  animation: rain-drop-right infinite 2s 1s ease;
+  animation-fill-mode: backwards;
+  z-index: 10;
+}
+
 .cloud-right {
   align-self: flex-end;
 }
 
 .cloud-md {
-  height: 300px;
+  width: 60%;
+  z-index: 100;
 }
 
 .cloud-mobile-box {
@@ -763,4 +789,24 @@ h4 {
   57%  { transform: scale(1,1)    translateY(-7px); }
   64%  { transform: scale(1,1)    translateY(0); }
   100% { transform: scale(1,1)    translateY(0); }
+}
+
+@keyframes rain-drop-left {
+  0% { transform: translateY(0%); opacity: 0.8; }
+  100% { transform: translateY(140%); opacity: 0; }
+}
+
+
+@keyframes rain-drop-right {
+  0% { transform: translateY(5%); opacity: 0.8; }
+  100% { transform: translateY(180%); opacity: 0; }
+}
+
+@keyframes cloud {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(20px); }
+  40% { transform: translateX(40px); }
+  60% { transform: translateX(30px); }
+  80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
 }
