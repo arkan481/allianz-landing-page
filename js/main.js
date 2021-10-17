@@ -32,18 +32,29 @@ $(document).ready(function () {
   $("#question-5-choice-a").click(function () {
     markAnswered(".question-answers__choice--5", this);
     makeOpaque("#question-box-5");
+    fadeInElement("#dialog-a");
   });
 
   $("#question-5-choice-b").click(function () {
     markAnswered(".question-answers__choice--5", this);
     makeOpaque("#question-box-5");
+    fadeInElement("#dialog-b");
   });
 
   $("#question-5-choice-c").click(function () {
     markAnswered(".question-answers__choice--5", this);
     makeOpaque("#question-box-5");
+    fadeInElement("#dialog-c");
+  });
+
+  $(".modal").click(function () {
+    $(".modal").fadeOut(1000);
   });
 });
+
+function openDialog(selector) {
+  $(selector).dialog("open");
+}
 
 function markAnswered(parentSelector, element) {
   $(parentSelector).removeClass("answered");
