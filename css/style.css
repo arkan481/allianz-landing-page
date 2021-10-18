@@ -631,20 +631,6 @@ h4 {
   .map-img {
     width: 100%;
   }
-
-  .sect-9-desktop {
-    display: none;
-  }
-
-  .sect-9-mobile {
-    display: inherit;
-  }
-
-  .section-9-grid-container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 @media (max-width: 600px) {
@@ -701,6 +687,22 @@ h4 {
 
   .footer-arrow-img {
     width: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+  .sect-9-desktop {
+    display: none;
+  }
+
+  .sect-9-mobile {
+    display: inherit;
+  }
+
+  .section-9-grid-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
