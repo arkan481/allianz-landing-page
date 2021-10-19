@@ -86,7 +86,7 @@ h4 {
 }
 
 .heading-sub {
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .light-orange-text {
@@ -104,19 +104,21 @@ h4 {
 .sect-1-left-bot {
   position: absolute;
   bottom: 0;
-  width: 400px;
+  width: 350px;
+  height: auto;
 }
 
 .sect-1-right-bot {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 400px;
+  width: 350px;
+  height: auto;
 }
 
 .sect-1-scroll-img {
   align-self: center;
-  height: 80px;
+  width: 35px;
   margin-bottom: 20px;
   animation: bounce 2s ease infinite;
   animation-delay: 2s;
@@ -194,7 +196,8 @@ h4 {
   margin-top: 45px;
   margin-bottom: 25px;
   display: block;
-  height: 100px;
+  width: 600px;
+  height: auto;
   max-width: 100%;  
 }
 
@@ -205,8 +208,8 @@ h4 {
 }
 
 .chart-img {
+  width: 850px;
   max-width: 100%;
-  height: 630px;
 }
 
 .chart-img-mobile {
@@ -216,6 +219,8 @@ h4 {
 
 .section-3 {
   text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .sect-3-1-wrapper {
@@ -225,8 +230,8 @@ h4 {
 }
 
 .sect-3-1-img {
+  width: 280px;
   max-width: 100%;
-  height: 400px;
 }
 
 .computer-girl {
@@ -276,6 +281,7 @@ h4 {
   align-items: center;
   position: relative;
   z-index: 100;
+  padding: 10px;
 }
 
 .sect-4-center-img-desktop {
@@ -328,6 +334,12 @@ h4 {
   text-align: center;
 }
 
+.section-6 {
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .sect-6-content {
   display: flex;
   justify-content: space-evenly;
@@ -349,11 +361,17 @@ h4 {
 .sect-6-side-img {
   max-width: 80%;
   align-self: flex-end;
-  height: 600px;
+  width: 220px;
 }
 
 .text-justify {
   text-align: justify;
+}
+
+.section-7 {
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .sect-7-content {
@@ -383,6 +401,10 @@ h4 {
   justify-content: center;
 }
 
+.section-8 {
+  padding: 10px;
+}
+
 .pink-text {
   color: #CF5B87;
 }
@@ -403,7 +425,7 @@ h4 {
 }
 
 .online-store-img-desktop {
-  height: 500px;
+  width: 330px;
   align-self: center;
   max-width: 80%;
 }
@@ -448,6 +470,7 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .section-9-heading-img {
@@ -625,7 +648,7 @@ h4 {
   }
 
   .heading-sub {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .map-img {
@@ -643,9 +666,8 @@ h4 {
 
   .sect-1-left-bot,
   .sect-1-right-bot {
-    width: 200px;
+    width: 160px;
     height: auto;
-    min-height: 40%;
   }
 
   .sect-1-scroll-img {
@@ -733,7 +755,7 @@ h4 {
 
   .sect-6-side-img {
     order: 1;
-    height: 400px;
+    height: auto;
     align-self: center;
   }
 
