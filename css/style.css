@@ -405,6 +405,28 @@ h4 {
   padding: 10px;
 }
 
+.section-8-card {
+  position: relative;
+  display: inline-block;
+}
+
+.section-8-rounded-btn {
+  position: absolute;
+  bottom: 28%;
+  right: 10%;
+  width: 13%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.section-8-rounded-btn__text {
+  font-size: 20px;
+  color: #FFD000;
+  width: 100%;
+}
+
 .pink-text {
   color: #CF5B87;
 }
@@ -613,6 +635,7 @@ h4 {
   background: rgba(0, 0, 0, 0.9);
   text-align: center;
   z-index: 20000;
+  cursor: pointer;
 }
 
 .modal-wrapper {
@@ -625,11 +648,23 @@ h4 {
 }
 
 .dialog-img {
-  width: 500px;
+  width: auto;
   max-width: 95%;
-  height: 95vh;
+  height: auto;
   max-height: 95vh;
   z-index: 200000;
+}
+
+.dialog-img-wrapper {
+  position: relative;
+  padding: 20px;
+}
+
+.dialog-close {
+  position: absolute;
+  width: 5%;
+  top: 0;
+  right: 1%;
 }
 
 /* MEDIA QUERIES */

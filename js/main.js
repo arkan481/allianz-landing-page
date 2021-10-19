@@ -47,6 +47,14 @@ $(document).ready(function () {
     fadeInElement("#dialog-c");
   });
 
+  $("#btn-jo").click(function () {
+    fadeInElement("#dialog-jo");
+  });
+
+  $("#btn-sarah").click(function () {
+    fadeInElement("#dialog-sarah");
+  });
+
   $(".modal").click(function () {
     $(".modal").fadeOut(1000);
   });
